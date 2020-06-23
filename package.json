@@ -6,10 +6,13 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
+    "generate": "nuxt generate",
+    "server": "http-server ./docs -o -p 8001"
+    },
   "dependencies": {
     "nuxt": "^2.13.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "http-server": "^0.12.3" 
+  }
 }
