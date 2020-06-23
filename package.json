@@ -1,5 +1,5 @@
 {
-  "name": "day4",
+  "name": "corporate",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "server": "http-server ./docs -o -p 8001"
+    "server": "http-server ./docs -o -p 8002"
     },
   "dependencies": {
     "nuxt": "^2.13.0"
