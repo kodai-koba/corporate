@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "server": "http-server ./docs -o -p 8002"
+    "server": "http-server ./docs -o -p 8003"
     },
   "dependencies": {
     "nuxt": "^2.13.0"
