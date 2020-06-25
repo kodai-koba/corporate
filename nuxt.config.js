@@ -1,6 +1,7 @@
 
 // const base_url = 'http://localhost:3000/'
-const base_url = 'https://www.kikagaku.co.jp/'
+const base_url = 'https://kobayashi.kikagaku.net/'
+// const base_url ='http://127.0.0.1:8000/'
 
 export default {
   /*
@@ -22,7 +23,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: `${base_url}css/style.css`},
-      { rel: 'stylesheet', type: 'text/css', href: `${base_url}css/lib/swiper.css`},
+      { rel: 'stylesheet', type: 'text/css', href: `${base_url}css/lib/swiper.css`}
     ],
     script: [
       { src: `${base_url}js/lib/jquery-3.4.1.js` },
